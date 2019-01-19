@@ -1,0 +1,249 @@
+* {
+	box-sizing: border-box;
+	margin:0;
+    padding:0;
+}
+html, body {
+	height:100%;
+	background-color: #F2F2F2
+}
+
+header#cabecalho {
+	position: relative;
+	height: 90px;
+	width: 1350px;
+	border-bottom: 1px solid black;
+	background-color: white;
+}
+
+.container {
+  width: 30%; /* define a largura do campo */ 
+  position: absolute;  /* cria o contexto de posicionamento do botão */ 
+  left: 450px;
+  top: 20px;
+  
+}
+
+input {
+	width: 100%;
+} /* define a largura do campo igual a largura do container */
+input,  button {
+	padding: 10px;
+}
+button {
+  position: absolute;   
+  top: 0; 
+  right: 0;
+  /* posiciona o botão em relação ao container, mas
+  como o campo está exatamente contido no container
+  o posicionamento se dá também em relação ao campo */
+}
+ 
+
+section#conteudo {
+	display: block;
+	width: 1000px;
+	height: 1400px;
+	float: right;
+	padding-left: 45px;
+	background-color: #F2F2F2;
+	position: relative;
+	left: -150px;
+	
+}
+div#mais-vistos {
+	
+	width: 862px;
+	height: 263px;
+	margin-top: 5px;
+	border-bottom: 2px solid #848484;
+	
+}
+div#mais-vistos {
+	margin: 5px;
+}
+div#foto01 {
+	display: block;
+	float: left;
+	margin: 2px;
+	width: 210px;
+	text-align: center;
+	height: 210px;
+}
+div#foto02 {
+	display: block;
+	float: left;
+	margin: 2px;
+	width: 210px;
+	text-align: center;
+	height: 210px;
+
+}
+div#foto03 {
+	display: block;
+	float: left;
+	margin: 2px;
+	width: 210px;
+	text-align: center;
+	height: 210px;
+
+}
+div#foto04 {
+	display: block;
+	float: left;
+	margin: 2px;
+	width: 210px;
+	text-align: center;
+	height: 210px;
+
+}
+div#filmes {
+	width: 862px;
+	height: 263px;
+	margin-top: 5px;
+	border-bottom: 2px solid #848484;
+
+}
+div#recentes {
+	width: 1000px;
+	height: 263px;
+	margin-top: 5px;
+}
+div.foto06 {
+	display: block;
+	float: left;
+	margin: 2px;
+	width: 210px;
+	text-align: center;
+	height: 210px;
+}
+
+ul#album {
+	display: block;
+	width: 1000px;
+	height: 900px;
+	margin: 0 auto;
+	padding: 1px;
+	overflow: hidden;
+	list-style: none;
+	border: 1px solid #A4A4A4;
+}
+ul#album li {
+	float: left;
+	width: 140px;
+	height: 200px;
+	border: 1px solid red;
+	margin: 25px;
+}
+ul#album li#foto01 {
+	background: url('../_imagens/red.jpg') no-repeat;
+
+}
+ul#album li#foto02 {
+	background: url(../_imagens/red.jpg) no-repeat;
+}
+ul#album li#foto03 {
+	background: url(../_imagens/red.jpg) no-repeat;
+}
+ul#album li#foto04 {
+	background: url(../_imagens/red.jpg) no-repeat;
+}
+ul#album li span {
+	opacity: 1;
+}
+aside#lateral {
+	display: block;
+	position:relative;
+	width: 200px;
+	height: 1400px;
+	float: left;
+	background-color: #E6E6E6;
+
+}
+footer#rodape {
+	border-top: 1px solid black;
+	clear: both;
+	text-align: center;
+	padding-top: 40px;
+	height: 120px;
+	
+
+}
+nav#nav-menu-lateral {
+	padding-top: 15px;
+}
+nav#nav-menu-lateral-two {
+	padding-top: 15px;
+}
+ul#ul-menu-lateral {
+	
+	padding: 1px;
+	overflow: hidden;
+	list-style: none;
+	border-bottom: 1px solid #A4A4A4;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-bottom: 10px;
+	padding-left: 15px;
+}
+ul#ul-menu-lateral li {
+	margin: 5px;
+}
+ul#ul-menu-lateral-two {
+	
+	padding: 1px;
+	overflow: hidden;
+	list-style: none;
+	border-bottom: 1px solid #A4A4A4;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 5px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+}
+
+ul#ul-menu-lateral-two li {
+	margin: 5px;
+}
+
+/*Section da pagina*/
+
+div#video {
+	position: relative;
+	top: 100px;
+	float: left;
+}
+div#text {
+	position: relative;
+	top: 70px;
+	float: right;
+	width: 420px;
+	text-align: justify;
+	margin-right: 50px;
+	height: 600px;
+	overflow: auto;
+	padding-right: 5px;
+}
+div#text p {
+font-size: 1.3em;
+max-width: 480px;
+LINE-HEIGHT:35px; 
+FONT-FAMILY:Arial,Helvetica,sans-serif
+
+}
+div#text p.nome {
+font-size: 1.3em;
+max-width: 480px;
+LINE-HEIGHT:55px; 
+FONT-FAMILY:Arial,Helvetica,sans-serif
+}
+
+div#trailer {
+	position: relative;
+	top: 200px;
+	left: 80px;
+}
+div#trailer h1 {
+	position: relative;
+	top: 550px;
+	left: 10px;
+}
+
