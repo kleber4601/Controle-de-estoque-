@@ -1,1 +1,1 @@
-# Automação no controle de temperatura e umidade em armazens 
+# Controle de estoque de livros
