@@ -1,1 +1,1 @@
-# Automação do controle de temperatura e umidade em armazens 
+# Automação no controle de temperatura e umidade em armazens 
