@@ -1,1 +1,1 @@
-# Controle de estoque com Java
+# Automação do controle de temperatura e umidade
